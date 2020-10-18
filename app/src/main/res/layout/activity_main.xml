@@ -74,6 +74,21 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <androidx.cardview.widget.CardView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="170dp"
+            app:cardCornerRadius="80dp"
+            app:cardElevation="20dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:src="@drawable/profil"
+                android:scaleType="centerCrop"/>
+        </androidx.cardview.widget.CardView>
+
     </RelativeLayout>
 
 </RelativeLayout>
