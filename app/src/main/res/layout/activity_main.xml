@@ -115,6 +115,18 @@
         android:layout_marginTop="130dp"
         android:textSize="22dp"
         android:text="340"/>
+    <TextView
+        android:id="@+id/Followers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Followers"
+        android:layout_below="@id/jumlahfollowers"
+        android:textColor="#353434"
+        android:textSize="16dp"
+        android:fontFamily="casual"
+        android:layout_marginLeft="105dp"
+
+        />
 
 
 </RelativeLayout>
