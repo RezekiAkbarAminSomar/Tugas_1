@@ -125,8 +125,20 @@
         android:textSize="16dp"
         android:fontFamily="casual"
         android:layout_marginLeft="105dp"
-
         />
+    <TextView
+        android:id="@+id/Followeing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jumlahfollowing"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="1dp"
+        android:layout_toEndOf="@id/Followers"
+        android:fontFamily="casual"
+        android:text="Following"
+        android:textColor="#353434"
+        android:textSize="16dp" />
+
 
 
 </RelativeLayout>
