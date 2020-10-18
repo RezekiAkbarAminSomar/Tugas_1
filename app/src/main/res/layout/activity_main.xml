@@ -144,14 +144,11 @@
         android:layout_height="wrap_content"
         android:text="Follow"
         android:textStyle="bold"
-        android:textSize="25dp"
+        android:textSize="20dp"
         android:fontFamily="casual"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/jumlahfollowing"
         android:layout_marginTop="50dp"
         android:background="@drawable/costum_button"
         />
-
-
-
 </RelativeLayout>
